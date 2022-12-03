@@ -26,3 +26,4 @@ with open('rucksack.txt') as f:
         rucksack_first_compartment_items = []
         rucksack_second_compartment_items = []
         print(sum)
+        
