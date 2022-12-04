@@ -1,3 +1,4 @@
+from unusefull_def import clear
 import re
 data = []
 
@@ -39,5 +40,6 @@ def overlapping_pairs():
 
 
 # Now, Do the math, and show me the result
+clear()
 print(fully_contained_pairs()," Elf's tasks fully contains the other Elf' task in the pair")
 print(overlapping_pairs()," Elf's in total have overlaping tasks within the pair")
