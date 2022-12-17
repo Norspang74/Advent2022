@@ -1,6 +1,4 @@
 from unusefull_def import clear
-from time import sleep
-import re
 data = []
 index_line_number = 0
 move =  ""
